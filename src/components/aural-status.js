@@ -9,6 +9,7 @@ export default function AuralStatus(props) {
       aria-atomic="true"
     >
       {props.auralStatus}
+
     </p>
   );
 }

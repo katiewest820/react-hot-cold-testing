@@ -5,6 +5,7 @@ import GuessCount from './guess-count';
 import AuralStatus from './aural-status';
 
 export default function StatusSection(props) {
+  console.log(props)
   const { guesses, auralStatus } = props;
   const guessCount = guesses.length;
 
